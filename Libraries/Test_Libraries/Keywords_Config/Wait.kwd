@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<Keyword>
+  <Name>Wait</Name>
+  <Path>C:\Sriram\VTAF NXG\IOT Devices\test-automation\Libraries\Test_Libraries\Keywords\Wait.seq</Path>
+  <Keyword_Group>Application</Keyword_Group>
+  <Keyword_Parameters>
+    <Function>Sec</Function>
+    <Parameter_List>
+      <Parameter_Name>Delay</Parameter_Name>
+      <Parameter_Type>Numeric</Parameter_Type>
+      <Parameter_Comment>Adds delay for Seconds defined</Parameter_Comment>
+      <Required>true</Required>
+      <Default_Value>2</Default_Value>
+      <Ring_Data/>
+    </Parameter_List>
+  </Keyword_Parameters>
+  <Keyword_Parameters>
+    <Function>mSec</Function>
+    <Parameter_List>
+      <Parameter_Name>Delay</Parameter_Name>
+      <Parameter_Type>Numeric</Parameter_Type>
+      <Parameter_Comment>Adds delay for specified Millisecond</Parameter_Comment>
+      <Required>true</Required>
+      <Default_Value>1000</Default_Value>
+      <Ring_Data/>
+    </Parameter_List>
+  </Keyword_Parameters>
+</Keyword>

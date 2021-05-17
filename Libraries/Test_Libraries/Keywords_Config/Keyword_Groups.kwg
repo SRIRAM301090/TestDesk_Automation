@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<Keyword_Group>
+  <Keyword_Type>
+    <Kwd_Group>Application</Kwd_Group>
+    <Kwd_Description>Get Application Control</Kwd_Description>
+  </Keyword_Type>
+  <Keyword_Type>
+    <Kwd_Group>Motion</Kwd_Group>
+    <Kwd_Description>Get Motion  Control</Kwd_Description>
+  </Keyword_Type>
+  <Keyword_Type>
+    <Kwd_Group>Others</Kwd_Group>
+    <Kwd_Description/>
+  </Keyword_Type>
+  <Keyword_Type>
+    <Kwd_Group>Vison</Kwd_Group>
+    <Kwd_Description>Get Vision  Control</Kwd_Description>
+  </Keyword_Type>
+</Keyword_Group>

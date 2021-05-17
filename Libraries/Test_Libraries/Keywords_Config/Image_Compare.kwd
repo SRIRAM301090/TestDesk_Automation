@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<Keyword>
+  <Name>Image_Compare</Name>
+  <Path>C:\/Imaq.seq</Path>
+  <Keyword_Group>Vison</Keyword_Group>
+  <Keyword_Parameters>
+    <Function>Compare</Function>
+    <Parameter_List>
+      <Parameter_Name>Reference_Image</Parameter_Name>
+      <Parameter_Type>String</Parameter_Type>
+      <Parameter_Comment/>
+      <Required>true</Required>
+      <Default_Value>C:\Temp.png</Default_Value>
+      <Ring_Data/>
+    </Parameter_List>
+    <Parameter_List>
+      <Parameter_Name>Source</Parameter_Name>
+      <Parameter_Type>String</Parameter_Type>
+      <Parameter_Comment/>
+      <Required>false</Required>
+      <Default_Value/>
+      <Ring_Data/>
+    </Parameter_List>
+    <Parameter_List>
+      <Parameter_Name>Score</Parameter_Name>
+      <Parameter_Type>Numeric</Parameter_Type>
+      <Parameter_Comment/>
+      <Required>true</Required>
+      <Default_Value>0</Default_Value>
+      <Ring_Data/>
+    </Parameter_List>
+  </Keyword_Parameters>
+</Keyword>
