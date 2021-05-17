@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <Keyword>
   <Name>Wait</Name>
-  <Path>C:\Sriram\VTAF NXG\IOT Devices\test-automation\Libraries\Test_Libraries\Keywords\Wait.seq</Path>
+  <Path>C:\Sriram\test-desk-automation\Libraries\Test_Libraries\Keywords\Wait.seq</Path>
   <Keyword_Group>Application</Keyword_Group>
   <Keyword_Parameters>
     <Function>Sec</Function>
