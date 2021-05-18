@@ -252,7 +252,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Insert SubPanel.vi" Type="VI" URL="../../../Users/sgopala2/Downloads/DQMH-Tutorial-Series-master/DQMH-Tutorial-Series-master/5 Launching DQMH Modules and their Startup Routines/Utilities/Insert SubPanel.vi"/>
 			<Item Name="Keyword_Info ( Data Structure ).ctl" Type="VI" URL="../Libraries/TestStand_Control/Module_Controls/Keyword_Info ( Data Structure ).ctl"/>
 			<Item Name="XML.lvlib" Type="Library" URL="../Libraries/XML_Library/XML.lvlib"/>
 		</Item>
