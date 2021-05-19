@@ -26,6 +26,7 @@
 			<Item Name="Module_SubVI" Type="Folder"/>
 			<Item Name="TestStand_Control.lvlib" Type="Library" URL="../Libraries/TestStand_Control/TestStand_Control.lvlib"/>
 		</Item>
+		<Item Name="favicon.ico" Type="Document" URL="../../test_desk/public/favicon.ico"/>
 		<Item Name="Test Launcher Main Module API.vi" Type="VI" URL="../Libraries/Launcher Main Module/Test Launcher Main Module API.vi"/>
 		<Item Name="Test TCP_Read API.vi" Type="VI" URL="../Libraries/TCP_Read/Test TCP_Read API.vi"/>
 		<Item Name="Test TCP_Write API.vi" Type="VI" URL="../Libraries/TCP_Write/Test TCP_Write API.vi"/>
@@ -255,6 +256,69 @@
 			<Item Name="Keyword_Info ( Data Structure ).ctl" Type="VI" URL="../Libraries/TestStand_Control/Module_Controls/Keyword_Info ( Data Structure ).ctl"/>
 			<Item Name="XML.lvlib" Type="Library" URL="../Libraries/XML_Library/XML.lvlib"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Test Launcher" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9687D475-AD77-42D8-882F-A61D751DA4EF}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{AE14AAFE-0BAA-4D08-9DA4-F0FC4D57F29A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{44E01BE7-5455-4633-A6FE-5558ECAA6FAC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Test Launcher</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{AE45FDAF-BB6E-411A-BD11-FE75B0C88905}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Test Launcher.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Test Launcher.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/favicon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9EED843E-2B85-4FB1-BD4A-8F465B9EAA90}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher Main Module Module/Launcher Main Module.lvlib/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Launcher Main Module Module/Launcher Main Module.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TCP_Read Module/TCP_Read.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/TCP_Write Module/TCP_Write.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/TestStand_Control/TestStand_Control.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Test Launcher</Property>
+				<Property Name="TgtF_internalName" Type="Str">Test Launcher</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">Test Launcher</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C7785CAE-9D47-420E-A79F-6606E68BDD3E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Test Launcher.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

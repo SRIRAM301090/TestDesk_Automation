@@ -1074,8 +1074,8 @@
 								</Locals>
 								<Main classname="Objs" valueflags="4194304">
 									<value lbound="[0]" ubound="[0]"><value>
-											<Step name="TP_1. Wait.mSec(Delay=1000)  " typename="Action" xsi:type="Action">
-												<comment>Waits for ms</comment>
+											<Step name="TP_1. Wait.mSec(Delay=1000)" typename="Action" xsi:type="Action">
+												<comment>TP_1. Wait.mSec(Delay=1000)</comment>
 												<subprops>
 													<TS classname="Obj">
 														<subprops>
@@ -1519,8 +1519,8 @@
 								<Setup classname="Objs" valueflags="4194304">
 									<value lbound="[0]" ubound="[0]">
 										<value>
-											<Step name="PC_1. Wait.Sec(Delay=2) " typename="Action" xsi:type="Action">
-												<comment> Wait for Sec</comment>
+											<Step name="PC_1. Wait.Sec(Delay=2)" typename="Action" xsi:type="Action">
+												<comment>PC_1. Wait.Sec(Delay=2)</comment>
 												<subprops>
 													<TS classname="Obj">
 														<subprops>
@@ -1964,8 +1964,8 @@
 								</Setup>
 								<Cleanup classname="Objs" valueflags="4194304">
 									<value lbound="[0]" ubound="[0]"><value>
-											<Step name="RST_1. Wait.Sec(Delay=2)  " typename="Action" xsi:type="Action">
-												<comment>Waits for sec</comment>
+											<Step name="RST_1. Wait.Sec(Delay=2)" typename="Action" xsi:type="Action">
+												<comment>RST_1. Wait.Sec(Delay=2)</comment>
 												<subprops>
 													<TS classname="Obj">
 														<subprops>
