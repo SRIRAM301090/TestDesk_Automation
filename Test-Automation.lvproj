@@ -272,7 +272,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AE45FDAF-BB6E-411A-BD11-FE75B0C88905}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Test Launcher.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Test Launcher.exe</Property>
@@ -284,7 +284,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9EED843E-2B85-4FB1-BD4A-8F465B9EAA90}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C1A5BB6-68EB-4CF9-816C-0F00AB8CA080}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher Main Module Module/Launcher Main Module.lvlib/Main.vi</Property>

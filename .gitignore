@@ -24,3 +24,4 @@ pnpm-debug.log*
 *.bat
 *.seq
 /test-automation/Test-Automation.aliases
+*.bat
